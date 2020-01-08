@@ -1,0 +1,74 @@
+
+a {color: #FFF!important}
+body, * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica;
+}
+
+#header{  background: #4A90E2; width: 100%
+}
+#header > div {
+  width: 1024px;
+  height: 64px;   
+  display: flex; 	
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto; 
+}
+
+#header img{
+  width: 121px;
+  height: 24px;
+  margin-left: 50px;
+}
+#header .login{
+  font: bold 15px Helvetica, Arial, sans-serif;
+  margin-right: 50px;
+  line-height: 17px;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.post{ 
+  width: 700px;
+  min-height: 200px; 
+  margin: 20px auto 0 auto; 
+  background: #FFF; 
+  border-radius: 5px;
+  padding: 15px 20px;
+  border: 1px solid rgb(235, 235, 235);
+  box-shadow: 0 0 10px 5px rgba(235, 235, 235, 0.5)
+}
+.post .post-profile{ height: 32px; display: flex  ; margin-bottom: 20px;}
+.post .post-profile > img { width: 32px; height: 32px; margin-right: 15px}
+.post .post-profile > div > h3, 
+.post .post-profile a {
+  font: bold 14px Helvetica, arial, sans-serif;
+  line-height: 16px;
+  color: #4A4A4A;
+  text-decoration: none;
+}
+.post-profile > div > span{
+  font-size: 11px;
+  line-height: 13px;
+  color: #9A9A9A;
+}
+.post p {
+  font-size: 14px;
+  line-height: 22px;
+  color: #3E3E3E;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #EEEEEE;
+}
+.comments{margin-top: 20px;}
+.comments > div{ width: 100%; display: flex; margin-bottom: 10px; align-items: flex-start}
+
+.comments img { width: 28px; height: 28px}
+.comments > div > div{ width: 100%; margin-left: 15px;  ;padding: 10px 15px; background: #EEEEEE; border-radius: 20px; font-family: Helvetica;
+  font-size: 13px;
+  line-height: 20px;  
+  color: #3E3E3E;
+  }
+  
